@@ -1,0 +1,344 @@
+/*==========  Desktop First  ==========*/
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1199px) {
+
+}
+
+@media only screen and (max-width: 1190px) {
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 1024px) {
+.header {
+	height: 500px;
+}
+.top h1 {
+	font-size: 24px;
+	margin: 12.5px 0;
+}
+
+.menu-toggle .button .line-2 {
+	width: 25px;
+	height: 3px;
+	margin: 7px;
+}
+.menu-toggle .button .line-1 {
+	width: 25px;
+	height: 3px;
+	margin: 7px;
+}
+.top .right .button .line-1-1, .top .right .button .line-2-1 {
+	width: 25px;
+	height: 3px;
+	margin: 7px;
+}
+/*.header .row .menu-toggle {
+	width: 200px;
+}*/
+/*.fade-toggle {
+	left: 75.1% !important;
+}*/
+.menu-toggle ul {
+	margin-top: 30%;
+}
+.menu-toggle ul li {
+	padding: 8px 0;
+}
+.menu-toggle ul li a {
+	font-size: 17px;
+}
+.top .right .button .click-on {
+	margin: 16px 0;
+}
+.menu-toggle .button .click-on-1 {
+	margin: 16px 0;
+}
+.text .item h1 {
+	font-size: 20px;
+}
+.services {
+	margin: 60px 0;
+}
+.services .item .item-1 {
+	margin: 30px;
+}
+.services .item .circle {
+	padding: 35px;
+}
+.services .item h2 {
+	font-size: 16px;
+	margin: 15px 0 0 0;
+}
+.work .item h1 {
+	font-size: 27px;
+	margin: 20px 0 30px;
+}
+.work .item .item-w .link-1, .work .item .item-w .link-2, .work .item .item-w .link-3 {
+	height: 300px;
+}
+.work .item .item-w .link-1 .text-i h2, .work .item .item-w .link-2 .text-i h2, .work .item .item-w .link-3 .text-i h2 {
+	font-size: 20px;
+}
+.work .item .item-w .link-1 .text-i .item-h, .work .item .item-w .link-2 .text-i .item-h, .work .item .item-w .link-3 .text-i .item-h {
+	top: 230px;
+	left: 45px;
+}
+.contact {
+	padding: 20px 0;
+}
+.contact .item h2 {
+	font-size: 16px;
+	margin: 15px 0;
+}
+footer h2 {
+	font-size: 16px;
+}
+footer .item-left h2 {
+	font-size: 16px;
+}
+footer .item-left h2 {
+	margin-right: 30px;
+}
+}
+@media only screen and (max-width: 991px) {
+/*.header .row .menu-toggle {
+	width: 250px;
+}*/
+/*.fade-toggle {
+	left: 74%!important;
+}*/
+.menu-toggle .button .line-1 {
+	transform: rotate(-45deg) translate(-3px, 2.5px);
+}
+.menu-toggle .button .line-2 {
+	transform: rotate(45deg) translate(-4.5px, -3.5px);
+}
+.menu-toggle ul {
+	padding-left: 30px; 
+}
+.text {
+	padding: 0 60px;
+	margin: 40px 0;
+}
+.text .item h1 {
+	font-size: 18px;
+}
+.services .item .item-1 {
+	margin: 25px;
+}
+.services .item .circle {
+	padding: 30px;
+}
+.services .item h2 {
+	font-size: 16px;
+	margin: 15px 0 0 0;
+}
+.menu-toggle {
+    width: 30%;
+    /*height: 100vh;*/
+    /*position: absolute;*/
+    /*background-color: #fff;*/
+    z-index: 10000;
+    /*right: -30%!important;*/
+}
+.all-1 {
+	transform: translate(-30%);
+	-webkit-transform: translate(-30%);
+    -ms-transform: translate(-30%);
+}
+}
+
+@media only screen and (max-width: 823px) {
+.work .item {
+	padding: 0 20px;
+}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 767px) {
+/*.header .row .menu-toggle {
+	width: 220px;
+}*/
+/*.fade-toggle {
+	left: 70%!important;
+}*/
+.text {
+	padding: 0 20px;
+}
+.text .item h1 {
+	font-size: 17px;
+}
+.services .item .item-1 {
+	margin: 15px;
+	width: 100px;
+}
+.services .item .circle {
+	padding: 27px;
+	border: 1px dashed #999;
+}
+.services .item h2 {
+	font-size: 14px;
+	margin: 15px 0 0 0;
+}
+.services .item {
+	padding: 0 20px;
+}
+.work .item .item-w .link-1 {
+	width: 49%;
+}
+.work .item .item-w .link-3 {
+	width: 49%;
+}
+.work .item .item-w .link-2 {
+	width: 49%;
+}
+.contact .item h2 {
+	font-size: 15px;
+}
+.contact .item {
+	padding: 0 20px;
+}
+footer {
+	padding: 8px 20px;
+}
+footer h2 {
+	font-size: 15px;
+}
+footer .item-left h2 {
+	font-size: 15px;
+	/*margin: auto;*/
+	text-align: center;
+	margin: 0 20px;
+} 
+footer .item-left {
+	float: inherit;
+	margin-bottom: 10px;
+}
+footer .item-right {
+	float: inherit;
+}
+footer .item-right h2 {
+	text-align: center;
+}
+.menu-toggle {
+	width: 240px;
+}
+.all-1 {
+	transform: translate(-240px);
+}
+}
+
+@media only screen and (max-width: 736px) {
+.work .item .item-w .link-1, .work .item .item-w .link-2, .work .item .item-w .link-3 {
+	height: 250px;
+}
+.work .item .item-w .link-1 .text-i h2, .work .item .item-w .link-2 .text-i h2, .work .item .item-w .link-3 .text-i h2 {
+	font-size: 18px;
+}
+.work .item .item-w .link-1 .text-i .item-h, .work .item .item-w .link-2 .text-i .item-h, .work .item .item-w .link-3 .text-i .item-h {
+	top: 190px;
+	left: 40px;
+}
+}
+
+@media only screen and (max-width: 667px) {
+/*.fade-toggle {
+	left: 67%!important;
+}*/
+}
+
+@media only screen and (max-width: 650px) {
+
+}
+
+@media only screen and (max-width: 600px) {
+/*.fade-toggle {
+	left: 56%!important;
+}*/
+.work .item .item-w .link-1, .work .item .item-w .link-2, .work .item .item-w .link-3 {
+	height: 200px;
+}
+.work .item .item-w .link-1 .text-i h2, .work .item .item-w .link-2 .text-i h2, .work .item .item-w .link-3 .text-i h2 {
+	font-size: 18px;
+}
+.work .item .item-w .link-1 .text-i .item-h, .work .item .item-w .link-2 .text-i .item-h, .work .item .item-w .link-3 .text-i .item-h {
+	top: 140px;
+	left: 40px;
+}
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 570px) {
+.work .item .item-w .link-1 {
+	width: 100%;
+}
+.work .item .item-w .link-3 {
+	width: 100%;
+}
+.work .item .item-w .link-2 {
+	width: 100%;
+}
+}
+@media only screen and (max-width: 455px) {
+/*.fade-toggle {
+	left: 50%!important;
+}*/
+}
+
+
+@media only screen and (max-width: 380px) {
+/*.fade-toggle {
+	left: 42%!important;
+}*/
+footer .item-left h2 {
+	font-size: 10px;
+	margin: 0 10px;
+}
+footer .item-left {
+	margin-bottom: 0px;
+}
+footer h2 {
+	font-size: 10px;
+}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 320px) {
+
+}
+
+/*==========  Mobile First  ==========*/
+/* Custom, iPhone Retina */
+@media only screen and (min-width: 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width: 480px) {
+
+  /**/ }
+
+/* Small Devices, Tablets */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width: 992px) {
+
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width: 1200px) {
+
+}
+
+@media only screen and (min-width: 1600px) {
+
+}
+@media only screen and (min-width: 1800px) {
+
+}
+@media only screen and (min-width: 2300px) {
+
+}
